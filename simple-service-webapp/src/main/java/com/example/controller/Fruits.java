@@ -10,8 +10,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
-import com.example.Service.FruitService;
 import com.example.model.Fruit;
+import com.example.service.FruitService;
 
 @Path("fruits")
 // xml or json because we are returning array
